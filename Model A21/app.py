@@ -5,9 +5,9 @@ import pandas as pd
 # Import Joblib to Load Saved Model
 import joblib
 
-model = joblib.load("C:\Industrial Training\AIML\Python\AllAssignments\Model A21\LR_model.pkl")
-scaler = joblib.load("C:\Industrial Training\AIML\Python\AllAssignments\Model A21\scaler.pkl")
-encoded_columns = joblib.load("C:\Industrial Training\AIML\Python\AllAssignments\Model A21\columns.pkl")
+model = joblib.load("LR_model.pkl")
+scaler = joblib.load("scaler.pkl")
+encoded_columns = joblib.load("columns.pkl")
 
 # Sets page title and keeps page centered
 st.set_page_config(
